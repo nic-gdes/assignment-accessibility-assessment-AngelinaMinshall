@@ -151,13 +151,17 @@ td {
   text-align: center;
 }
 
+th {
+  background-color: #def; 
+}
+
 th[scope="col"] {
   border-bottom: 1px solid black;
 }
 
-tbody tr:nth-child(odd) {
+/* tbody tr:nth-child(odd) {
   background-color: #def;
-}
+} */
 
 /* styling content images and audio */
 
